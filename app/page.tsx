@@ -1,14 +1,20 @@
 import List from '@/components/gallery/list'
+import { Button } from '@/components/ui/button'
+import { GithubIcon } from 'lucide-react'
 
 export default function Home() {
   return (
     <>
-      <header className=' flex h-20 shrink-0 items-center gap-2 border-b bg-background px-4 mb-4'>
-        <h1 className='text-2xl font-bold'>Studio-memelii</h1>
+      <header className='flex px-4 shrink-0 items-center justify-end bg-background my-2'>
+        <Button asChild variant='secondary'>
+          <a href='https://github.com/aledx18' target='_blank' rel='noreferrer'>
+            <GithubIcon />
+            <p>@aledx18</p>
+          </a>
+        </Button>
       </header>
-      <div className='my-20'></div>
-      <section className='max-w-screen-2xl mx-auto px-8 py-4'>
-        <h2 className='text-xl font-bold p-2'>Gallery</h2>
+      <div className='my-10' />
+      <section className='mx-12 mb-10'>
         <List />
       </section>
     </>
