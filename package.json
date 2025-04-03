@@ -1,5 +1,5 @@
 {
-  "name": "studio-memelii",
+  "name": "ghiblol",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-separator": "^1.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "cloudinary": "2.6.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.486.0",
+    "next": "15.2.4",
+    "next-cloudinary": "6.16.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "tailwind-merge": "^3.1.0",
+    "tw-animate-css": "^1.2.5"
   },
   "devDependencies": {
     "typescript": "^5",
